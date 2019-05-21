@@ -1,0 +1,56 @@
+.badge {
+float: right;
+}
+
+.badge span {
+padding: 5pt;
+margin: 2pt;
+font-size: 10pt;
+}
+
+.label-danger {
+background: maroon;
+color: white;
+border-radius: 20px;
+}
+
+.label-success {
+background: green;
+color: white;
+border-radius: 20px;
+}
+
+.label-warning {
+background: orange;
+color: white;
+border-radius: 20px;
+}
+
+.danger {
+background: maroon;
+color: white;
+}
+
+.danger a {
+text-decoration: none;
+}
+
+.warning {
+background: orange;
+color: white;
+}
+
+.warning a {
+color: white;
+text-decoration: none;
+}
+
+.active {
+background: white;
+color: black;
+}
+
+.active a {
+color: black;
+text-decoration: none;
+}

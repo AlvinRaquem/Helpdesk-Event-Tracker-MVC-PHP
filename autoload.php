@@ -23,6 +23,14 @@ spl_autoload_register(function($classname){
 		require $file;
 	}
 	
+	$file2 =  BASE_PATH.strtr($classname, "\\", "/") . ".php";
+	
+	$file2 = str_replace("//","/",$file2);
+	
+	if(file_exists($file2)){
+		require $file2;
+	}
+	
 
 });
 

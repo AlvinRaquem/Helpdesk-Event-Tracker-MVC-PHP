@@ -1,6 +1,6 @@
 <?php
 
-require_once BASE_PATH."Route.php";
+require_once BASE_PATH."route.php";
 require_once BASE_PATH."view.php";
 require_once BASE_PATH."auth.php";
 require_once HELPER_PATH."session.php";

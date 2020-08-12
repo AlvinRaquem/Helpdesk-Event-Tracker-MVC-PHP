@@ -13,10 +13,10 @@ $configs = [
 	],
 
 	'database' => [
-		'DB_HOST' => '127.0.0.1',
-		'DB_USER' => 'root',
-		'DB_PASS' => '',
-		'DB_NAME' => 'db_ticket',
+		'DB_HOST' => 'us-cdbr-east-02.cleardb.com',
+		'DB_USER' => 'b6746c66ed5b10',
+		'DB_PASS' => 'd9074185',
+		'DB_NAME' => 'heroku_9aeeb23e54e6e27',
 		'DB_CHARSET' => 'utf8',
 		'DB_CONNECTION_TYPE' => 'pdo',
 

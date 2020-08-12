@@ -15,7 +15,7 @@
 // // for linux
 spl_autoload_register(function($classname){
 		
-		$file = str_replace('\\','/',APP_PATH.$class.'.php');
+		$file = str_replace('\','/',APP_PATH.$class.'.php');
 
 		if(file_exists($file)){
 		require $file;

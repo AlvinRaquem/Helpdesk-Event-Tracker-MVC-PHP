@@ -28,7 +28,7 @@ spl_autoload_register(function($classname){
 	$file2 = str_replace("//","/",$file2);
 	
 	if(file_exists($file)){
-	require $file2;
+	require "app/".$file2;
 	}
 });
 

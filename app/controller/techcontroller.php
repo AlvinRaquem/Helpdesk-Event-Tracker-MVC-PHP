@@ -2,6 +2,10 @@
 
 namespace controller{
 
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."tech.php";
+require_once HELPER_PATH."input.php";
+
 use base\controller;
 use model\tech;
 use helper\input;

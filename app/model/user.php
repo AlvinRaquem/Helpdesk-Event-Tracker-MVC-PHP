@@ -1,7 +1,8 @@
 <?php
 
 namespace model{
-
+require_once BASE_PATH."model.php";
+require_once HELPER_PATH."session.php";
 use base\model;
 
 use helper\session;

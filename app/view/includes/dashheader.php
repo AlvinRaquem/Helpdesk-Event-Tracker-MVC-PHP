@@ -1,5 +1,6 @@
 <?php 
 date_default_timezone_set('Asia/Manila');
+require_once HELPER_PATH."session.php";
 use helper\session; 
 ?>
 <!DOCTYPE html>

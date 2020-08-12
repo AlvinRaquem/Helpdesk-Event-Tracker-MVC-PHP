@@ -2,6 +2,8 @@
 
 namespace base{
 
+require_once HELPER_PATH."database.php";
+
 use helper\database;
 use PDO;
 

@@ -1,6 +1,10 @@
 <?php
 
 namespace base {
+
+require_once HELPER_PATH."session.php";
+require_once BASE_PATH."view.php";
+
 use helper\session;
 use base\view;
 

@@ -1,6 +1,13 @@
 <?php
 
 namespace controller;
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."ticket.php";
+require_once HELPER_PATH."input.php";
+require_once CONTROLLER_PATH."atmcontroller.php";
+require_once CONTROLLER_PATH."usercontroller.php";
+require_once CONTROLLER_PATH."complaintcontroller.php";
+require_once CONTROLLER_PATH."techcontroller.php";
 
 use base\controller;
 use model\ticket;
@@ -57,10 +64,12 @@ Class ticketcontroller extends controller {
 			,$personassign,$datetimepersonassign,$status,$targetdate,$txtAcknow,$datetimeacknow];
 
 		if($this->model->createticket($data)){
-			echo "success";
+			echo "<script>alert('success');</script>";
 		}else{
-			echo "fail";
+			echo "<script>alert('Something went wrong !! Try again.');</script>";
 		}
+
+		$this->view->redirect("create");
 
 
 	}

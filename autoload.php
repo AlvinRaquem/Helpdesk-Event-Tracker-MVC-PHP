@@ -13,7 +13,7 @@ spl_autoload_register(function($class){
 });
 
 // // for linux
-// spl_autoload_register(function($classname){
+// spl_autoload_register(function($class){
 		
 // 		$file = str_replace('\\','/',APP_PATH.$class.'.php');
 

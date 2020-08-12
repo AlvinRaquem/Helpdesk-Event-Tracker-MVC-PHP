@@ -1,6 +1,11 @@
 <?php
 
 namespace controller{
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."home.php";
+require_once MODEL_PATH."complaint.php";
+require_once HELPER_PATH."input.php";
+require_once HELPER_PATH."session.php";
 
 use base\controller;
 use model\home;

@@ -2,6 +2,10 @@
 
 namespace base {
 
+	require_once BASE_PATH."view.php";
+	require_once BASE_PATH."model.php";
+	require_once HELPER_PATH."session.php";
+
 	use base\view;
 	use base\model;
 	use helper\session;

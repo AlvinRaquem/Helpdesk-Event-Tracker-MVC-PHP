@@ -2,6 +2,12 @@
 
 
 namespace controller;
+
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."user.php";
+require_once HELPER_PATH."input.php";
+require_once APP_PATH."actions/getUser.php";
+
 use base\controller;
 use model\user;
 use helper\input;

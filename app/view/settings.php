@@ -1,4 +1,4 @@
-<?php include VIEW_PATH.'/includes/header.php'; use helper\session;?>
+<?php include VIEW_PATH.'/includes/header.php'; require_once HELPER_PATH."session.php"; use helper\session;?>
 
   <style>
     

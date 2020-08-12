@@ -1,5 +1,6 @@
 <?php 
 include VIEW_PATH.'/includes/header.php';
+require_once HELPER_PATH."session.php";
 use helper\session;
 
 

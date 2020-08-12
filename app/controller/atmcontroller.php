@@ -2,6 +2,10 @@
 
 namespace controller{
 
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."atm.php";
+require_once HELPER_PATH."input.php";
+
 use base\controller;
 use model\atm;
 use helper\input;

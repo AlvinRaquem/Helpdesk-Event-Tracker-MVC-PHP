@@ -1,5 +1,22 @@
 <?php
 
+require_once BASE_PATH."Route.php";
+require_once BASE_PATH."view.php";
+require_once BASE_PATH."auth.php";
+require_once HELPER_PATH."session.php";
+require_once HELPER_PATH."input.php";
+
+require_once CONTROLLER_PATH."usercontroller.php";
+require_once CONTROLLER_PATH."ticketcontroller.php";
+require_once CONTROLLER_PATH."atmcontroller.php";
+require_once CONTROLLER_PATH."complaintcontroller.php";
+require_once CONTROLLER_PATH."homecontroller.php";
+require_once CONTROLLER_PATH."reportcontroller.php";
+
+require_once CONTROLLER_PATH."slmcontroller.php";
+require_once CONTROLLER_PATH."flmcontroller.php";
+require_once CONTROLLER_PATH."techcontroller.php";
+
 use base\Route;
 use base\view;
 use base\auth;
@@ -26,7 +43,7 @@ $homecontroller = new homecontroller;
 $reportcontroller = new reportcontroller;
 $techcontroller = new techcontroller;
 
-use actions\getUser;
+// use actions\getUser;
 
 
 Route::make('testing',function(){

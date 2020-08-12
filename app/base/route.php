@@ -1,6 +1,7 @@
 <?php
 
 namespace base{
+require_once BASE_PATH."view.php";
 use base\view;
 
 class route {

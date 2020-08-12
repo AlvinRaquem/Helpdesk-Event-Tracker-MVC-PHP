@@ -2,6 +2,13 @@
 
 namespace controller;
 
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."complaint.php";
+require_once HELPER_PATH."input.php";
+require_once HELPER_PATH."session.php";
+require_once CONTROLLER_PATH."atmcontroller.php";
+require_once INTERFACE_PATH."activelist.php";
+
 use base\controller;
 use model\complaint;
 use helper\input;

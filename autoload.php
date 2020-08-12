@@ -15,13 +15,13 @@
 // for linux
 spl_autoload_register(function($classname){
 		
-	$file =  APP_PATH.strtr($classname, "\\", "/") . ".php";
+// 	$file =  APP_PATH.strtr($classname, "\\", "/") . ".php";
 	
-	$file = str_replace("//","/",$file);
+// 	$file = str_replace("//","/",$file);
 	
-	if(file_exists($file)){
-	require $file;
-	}
+// 	if(file_exists($file)){
+// 	require $file;
+// 	}
 	
 	$file2 =  strtr($classname, "\\", "/") . ".php";
 	

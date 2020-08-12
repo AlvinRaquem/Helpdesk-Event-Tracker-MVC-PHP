@@ -69,7 +69,7 @@ Class ticketcontroller extends controller {
 			echo "<script>alert('Something went wrong !! Try again.');</script>";
 		}
 
-		$this->view->redirect("create");
+		$this->view->redirect("flmactive");
 
 
 	}

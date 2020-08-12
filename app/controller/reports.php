@@ -1,6 +1,13 @@
 <?php
 
 namespace controller{
+	
+require_once BASE_PATH."controller.php";
+require_once MODEL_PATH."report.php";
+require_once HELPER_PATH."input.php";
+require_once HELPER_PATH."session.php";
+require_once CONTROLLER_PATH."atmcontroller.php";
+
 
 use base\controller;
 use model\report;

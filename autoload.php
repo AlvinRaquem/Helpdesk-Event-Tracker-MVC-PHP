@@ -31,6 +31,14 @@ spl_autoload_register(function($classname){
 		require $file2;
 	}
 	
+	$file3 =  strtr($classname, "\\", "/") . ".php";
+	
+	$file3 = str_replace("//","/",$file3);
+	
+	if(file_exists($file3)){
+		require $file3;
+	}
+	
 
 });
 

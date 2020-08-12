@@ -19,10 +19,8 @@ spl_autoload_register(function($classname){
 	
 	$file = str_replace("//","/",$file);
 	
-	echo $file."<br/>";
-
-		if(file_exists($file)){
-		require $file;
+	if(file_exists($file)){
+	require $file;
 	}
 });
 

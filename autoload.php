@@ -17,6 +17,8 @@ spl_autoload_register(function($classname){
 		
 		$file =  APP_PATH.str_replace($classname, "\\", "/") . ".php";
 	
+	$file = str_replace($file,"//","/");
+	
 	echo $file."<br/>";
 
 		if(file_exists($file)){

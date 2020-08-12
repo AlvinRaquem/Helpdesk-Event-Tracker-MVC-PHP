@@ -12,18 +12,13 @@
 // 	// }
 // });
 
-// // for linux
-// spl_autoload_register(function($classname){
+// for linux
+spl_autoload_register(function($classname){
 		
-// 		$file = strtr('\\','/',APP_PATH.$class.'.php');
+		$file =  APP_PATH.str_replace($classname, "\\", "/") . ".php";
 
-// 		if(file_exists($file)){
-// 		require $file;
-// 	}
-// });
+		if(file_exists($file)){
+		require $file;
+	}
+});
 
-spl_autoload_register('myAutoLoaderPerson');
-
-function myAutoLoaderPerson($className) {
-    require_once __DIR__ . APP_PATH.strtr($classname, "\\", "/") . ".php";
-}
